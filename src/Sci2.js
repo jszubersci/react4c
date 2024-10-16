@@ -4,8 +4,8 @@ import "./Sci.css"
 function Sci2() {
     const inputRef = useRef()
 
-    const myStyle = {color : "Red"}
-    const [name , setName] = useState("aaa");
+    const myStyle = {color : "Black", border:"solid", margin:"20px"}
+    const [name , setName] = useState("aaaaaaaa");
 
     const handleButton = () => {
         setName(inputRef.current.value)
@@ -16,9 +16,16 @@ function Sci2() {
     }
     return ( 
         <div className="Sci2" style={myStyle}>
-        <input type="button" value="baton" onClick={handleButton}></input>
+        {/* <input type="button" value="baton" onClick={handleButton}></input>
         <input ref={inputRef} type="text" onInputCapture={handleInputText}></input>
-        <p>{name}</p>
+        <p>{name}</p> */}
+        <p>START</p>
+          <input></input><br></br>
+          <input></input>
+
+
+        <br></br><br></br><br></br>
+        <p>STOP</p>
         </div>
     );
 }

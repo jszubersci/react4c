@@ -5,6 +5,8 @@ import './index.css';
 import App from './App';
 import A from './A';
 import Sci2 from './Sci2';
+import Div1 from './Div1';
+
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -12,6 +14,8 @@ root.render(
   <React.StrictMode>
     <A />
     <Sci2 />
+
+    <Div1 />
   </React.StrictMode>
 );
 
